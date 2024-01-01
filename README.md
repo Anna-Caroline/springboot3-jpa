@@ -2,17 +2,18 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Anna-Caroline/springboot3-jpa/blob/main/LICENSE) 
 
 # About the Project
- Create Spring Boot Java project
- Implement domain model
- Structure logical layers: resource, service, repository
- Set up test database (H2)
- Populate the database
- CRUD - Create, Retrieve, Update, Delete
- Handling exceptions
+* Create Spring Boot Java project
+* Implement domain model
+* Structure logical layers: resource, service, repository
+* Set up test database (H2)
+* Populate the database
+* CRUD - Create, Retrieve, Update, Delete
+* Handling exceptions
 
-### References
+#### References
  [Nelio Alves](https://github.com/acenelio "Github")
- [DevSuperior](https://devsuperior.com "DevSuperior").
+ <br>
+ [DevSuperior](https://devsuperior.com "DevSuperior")
 
 
 ## Domain model
@@ -24,7 +25,7 @@
 ## Logical layers
 <img src="/assets/logical-layers.png">
 
-# Tecnologias utilizadas
+# Tools used 
 - Java
 - Spring Boot
 - JPA / Hibernate
@@ -42,7 +43,7 @@ Requirement: Java 17
 git clone https://github.com/Anna-Caroline/springboot3-jpa
 
 # enter the src folder
-cd backend
+cd src
 
 # execute the project
 ./mvnw spring-boot:run
